@@ -18,5 +18,17 @@ public class helloHTML {
 
         StringBuffer sb = new StringBuffer();
 
+
+        sb.append("<html>");
+        sb.append("<head>");
+        sb.append("<title>My first HTML Page</title>");
+        sb.append("</head>");
+        sb.append("<body>");
+        sb.append("My first html page with body");
+        sb.append("</body>");
+        sb.append("</html>");
+        sb.append("\n");
+        sb.append("hardcore html");
+        return sb.toString();
     }
 }
